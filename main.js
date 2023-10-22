@@ -48,7 +48,7 @@ async function main() {
             new_followers.className = 'p-text'
             followers.appendChild(new_followers)
         } else {
-            console.log('no')
+            
         }
     } catch(err) {
         alert(`Can't get data from current user, status : ${err.response.status}`)
