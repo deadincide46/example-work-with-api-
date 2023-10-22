@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding-top: 100px;
+}
+.header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background-color: lightblue;
+    justify-content: center;
+}
+
+
+.inpu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new_avatar {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100px;
+    margin-left: 20px;
+}
+
+.profile-data {
+    display: flex;
+    flex-direction: column;
+    font-size: 29px;
+}
+.p-text {
+    margin-left: 20px;
+}
